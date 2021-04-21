@@ -1,0 +1,15 @@
+# Status line
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%w"
+
+# Enable mouse scrolling and scroll bar history scrolling
+# https://unix.stackexchange.com/questions/40242/scroll-inside-screen-or-pause-output
+termcapinfo xterm* ti@:te@
+
+# Bell
+# https://www.gnu.org/software/screen/manual/html_node/Bell.html
+bell_msg '^G'
+vbell off
+vbell_msg ''
+vbellwait 0
